@@ -1,6 +1,16 @@
 .background{
-	max-width: 100%;
-	max-height: 100%;
-	background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2a/Ear_of_corn.png);
+	width: 1250px;
+	height: 645px;
+	background: transparent url("http://pixabay.com/static/uploads/photo/2012/04/18/21/25/corn-37927_640.png");
+}
 
+.response {
+	text-align: center;
+	font-size: 50px;
+	margin: 25px;
+	text-shadow: 2px 2px 5px #FFF
+}
+
+#playerChoice {
+	padding: 200px 0px 0px 0px;
 }
