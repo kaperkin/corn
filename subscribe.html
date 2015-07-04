@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet" href="corn.css"/>
+	<link type="text/css" rel="stylesheet" href="subscribe.css"/>
+   <title> Corn! Glorious Corn!|Your Number 1 Trusted Source in Corn-Related News </title>
+</head>
+<body>
+  <header id="title">
+		<a href = "corn.html"><h1> Corn! Glorious Corn! </h1></a>
+		<h3> Your Number 1 Trusted Source in Corn-Related News</h3>
+  </header>
+  
+	  <nav class = "mainNav">
+		  <a href= "corn.html">Home</a>
+		  <a href="subscribe.html">Subcribe</a>
+		  <a href="cornography.html">Cornography</a>
+		  <a href="games.html">Games</a>
+		  <a href="jokes.html">Jokes</a>
+	  </nav>
+	  
+	  
+	<h1>Subscribe for more corn news</h1>
+	  <form action="" method="post" class= "subscribe">
+		  <h1>Sign up</h1>
+		 <fieldset>
+			 <legend><span class="number">1</span>Your basic info</legend>
+			  <label for="name" >Name:</label>
+				<input type="text" id="name" name="user_name" class="blk">
+			  
+			  <label for="mail">E-mail:</label>
+				<input type="email" id="mail" name="user_email" class= "blk">
+			<label>Age:</label><br>
+				<input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18">Under 18</label><br>
+				<input type="radio" id="age_18_25" value="age_18_25" name="user_age"><label for="age_18_25">18-25</label><br>
+				<input type="radio" id="age_26_35" value="age_26_35" name="user_age"><label for="age_26_35">26-35</label><br>
+				<input type="radio" id="extremely_old" value="user_age" name="user_age"><label for="extremely_old">Extremely old</label><br>
+			
+			<label for="cornType">What is your preferred type of corn?</label>
+				<select id="cornType" name="corn_type">
+						<option value="on _the_cob">On the cob</option>
+						<option value="creamed">Creamed</option>
+						<option value="cut_kernals">Cut kernals</option>
+						<option value="cornbread">Cornbread</option>
+						<option value="corn_chowder">Corn chowder</option>
+				</select>
+		 </fieldset>
+		 
+		 <fieldset>
+			 <legend><span class="number">2</span>Your favourite corn story</legend>
+			  <label for="cornStory">Tell us your story:</label>
+				<textarea id="cornStory" name="corn_story"></textarea>
+		  </fieldset>
+		  <button type="reset" class="error btn">Clear Form</button>
+		  
+		  <button type="submit" class="btn">Sign Up</button>
+	  </form>
+
+</body>
+</html>

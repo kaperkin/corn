@@ -1,0 +1,132 @@
+:root{
+	background-color: #FFF3C9;
+}
+
+
+
+#title {
+	text-align: center;
+	background-color: #FF9900;
+	max-width: 100%;
+	font-family: 'Lobster', 'Ubuntu Medium', sans-serif;
+	padding: 10px 0px 5px 0px;
+	font-size: 1.5em;
+	background-image: url(http://f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2013/11/3021663-poster-1280-monsanto-sweet-corn.jpg);
+	background-repeat: no-repeat;
+}
+
+#title a{
+	text-decoration:none;
+	color: black;
+	
+}
+
+/*FIND out why this doesn't work. Problem with the class selector?*/
+  /* 
+ a:visited{
+	text-color: black;
+}
+
+#title a:hover{
+	text-color: #FFF;
+}
+*/
+
+
+
+/*
+#title h3 {
+	font-family: sans serif;
+	padding: 0;
+	font-size: 1em;
+}
+*/
+.mainNav {
+	text-align:  right;
+	height: 40px;
+	background-color: #FFCC00;
+}
+
+.mainNav a{
+	padding: 10px 20px;
+	border-radius: 5%;
+	background-color: #EF7F0B;
+	display: inline-block;
+}
+
+.col{
+	display: inline-block;
+	padding: 20px;
+	margin-right: -10px;
+}
+
+.whatIsCorn{
+	width:50%;
+	background-color: #FFEC4A;
+}
+
+.table{
+	width: 40%;
+	vertical-align: top;
+}
+
+.cornNews{
+	max-width: 100%;
+	height: 200px;
+}
+
+/*
+.cornFacts {
+	max-width: 100%;
+	background-color: #FFC400;
+	text-align: center;
+	padding: 15px 20px;
+	border: 4px solid #573F16;
+	border-radius: 50%;
+}
+
+.whatIsCorn{
+	float:left;	
+}
+
+.table {
+	float: right;
+}
+*/
+
+.cornStories{
+	height: 400px;
+	clear: both;
+	display: block;
+
+	
+}
+
+thead {
+	background-color: #FFAC24;
+}
+
+.cornFacts {
+	display: flex;
+	flex-direction: row;
+	flex-align: center;
+}
+
+li:nth-child(odd) {
+	background-color: #E7B82C;
+	color: black;
+	border-radius: 5px;
+}
+
+/*DRY Selectors*/
+
+/*
+.secondary {
+	max-width: 45%;
+	margin: auto;
+}
+*/
+
+
+
+
