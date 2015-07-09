@@ -14,6 +14,7 @@ function showForm(){
 	var f = document.getElementById("subscribeForm");
 	f.style.display = "block";
 	f.style.position = "absolute";
+	top.location.href = '#bottom'
 	
 	}
 
