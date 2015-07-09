@@ -1,7 +1,10 @@
-#cornStory {
-	
-}
 
+
+#subscribeForm {
+	display: none;
+	position: absolute;
+	top: 198x;
+}
 
 .subscribe {
 	padding: 20px 20px;
