@@ -26,10 +26,13 @@
 	text-align:  right;
 	height: 40px;
 	background-color: #FFCC00;
+	display: flex;
+	justify-content: flex-end;
 }
 
 .mainNav a{
 	padding: 10px 20px;
+	margin: 0 5px;
 	border-radius: 5%;
 	background-color: #EF7F0B;
 	display: inline-block;
@@ -70,7 +73,7 @@
 .myShoutOut {
 	font-size: 1.25em;
 	font-family: 'Lobster', 'Ubuntu Medium', sans-serif;
-	text-align: center;
+	text-align: left;
 
 }
 
@@ -90,14 +93,6 @@ li:nth-child(odd) {
 	border-radius: 5px;
 }
 
-/*DRY Selectors*/
-
-/*
-.secondary {
-	max-width: 45%;
-	margin: auto;
-}
-*/
 
 
 
