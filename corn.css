@@ -57,7 +57,7 @@
 
 .cornNews{
 	max-width: 100%;
-	height: 200px;
+	min-height: 200px;
 }
 
 .cornNews a {
@@ -65,7 +65,7 @@
 
 }
 .cornStories{
-	height: 400px;
+	min-height: 400px;
 	clear: both;
 	display: block;
 }
