@@ -83,8 +83,6 @@ thead {
 
 .cornFacts {
 	display: flex;
-	flex-direction: row;
-	flex-align: center;
 }
 
 li:nth-child(odd) {
