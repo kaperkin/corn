@@ -63,3 +63,22 @@ align-self: flex-start;
 .error {
 background-color: #FF001E;
 }
+
+@media (max-device-width: 600px){
+	.subscribe{
+		min-width: 100%;
+		font-size: 1.5em;
+	}
+	#fieldset1{
+		font-size: 1.25em;
+	}
+	#cornType{
+		font-size: 1.25em;
+	}
+	input{
+		font-size: 1.25em;
+	}
+	#fieldset2{
+		font-size: 1.25em;
+	}
+}

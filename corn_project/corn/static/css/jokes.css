@@ -26,3 +26,15 @@ button {
 	padding: 40px 0px;
 	height: 160px;
 }
+
+@media (max-device-width: 600px){
+	button{
+		font-size: 1.5em;
+	}
+	.punchLine{
+		font-size: 1.5em;
+	}
+	.joke{
+		font-size: 2em;
+	}
+}
