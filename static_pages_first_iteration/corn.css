@@ -1,13 +1,14 @@
-:root{
+
+
+body {
 	background-color: #FFF3C9;
 }
-
-
 
 #title {
 	text-align: center;
 	background-color: #FF9900;
-	max-width: 100%;
+	width: 100%;
+	min-height: 15%;
 	font-family: 'Lobster', 'Ubuntu Medium', sans-serif;
 	padding: 10px 0px 5px 0px;
 	font-size: 1.5em;
